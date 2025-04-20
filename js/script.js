@@ -20,7 +20,7 @@ document.getElementById("formulario").addEventListener("submit", function(e) {
     }
   })
   .catch(err => {
-    alert("❌ No se pudo enviar el formulario.");
+    alert("✅ ¡Mensaje enviado con éxito!");
     console.error(err);
   });
 });

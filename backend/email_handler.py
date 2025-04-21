@@ -6,7 +6,7 @@ SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 EMAIL_SENDER = "ronalasencio13@gmail.com"
 EMAIL_PASSWORD = "uxkw aqan ovkw evqo"
-EMAIL_RECEIVER = "ronalasencio06@gmail.com"
+EMAIL_RECEIVER = "barberiacapitaldelcorte@gmail.com"
 
 def send_email(name, phone, email, message):
     try:

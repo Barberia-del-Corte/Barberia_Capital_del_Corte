@@ -10,7 +10,7 @@ EMAIL_RECEIVER = "barberiacapitaldelcorte@gmail.com"
 
 def send_email(name, phone, email, message):
     try:
-        subject = "🔔 RESERVA IMPORTANTE - Cliente en espera | Barbería ALOJAN"
+        subject = "🔔 RESERVA IMPORTANTE - Cliente en espera | Barbería del Capital"
         body = f"""
         🔔 ¡NUEVA SOLICITUD DE RESERVA!
 
@@ -25,7 +25,7 @@ def send_email(name, phone, email, message):
 
         ✅ Revisa tu agenda y responde lo antes posible para confirmar esta reserva.
 
-        💈 Este mensaje fue generado automáticamente desde tu sitio web ALOJAN-MASTER.
+        💈 Este mensaje fue generado automáticamente desde tu sitio WEB Barberia del Capital.
         """
 
         msg = MIMEMultipart()
